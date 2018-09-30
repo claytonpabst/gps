@@ -24,10 +24,6 @@ massive(config.connection)
 
 app.use(express.static(__dirname + './../build'))
 
-var userController = require("./userController.js");
-
-//////////Endpoints for the front end
-
 
 
 
